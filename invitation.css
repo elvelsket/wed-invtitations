@@ -1,0 +1,119 @@
+
+body {
+    background: url("img/watercolor-bg.jpg") repeat repeat;
+    margin: 0;
+    background-blend-mode: darken ;
+}
+
+.card {
+    position: relative;
+    margin:0 auto;
+    margin-top: 100px;
+    width: 900px; 
+    height: 900px;
+}
+
+span.header, span.sign{
+    padding: 0;
+    font-family: 'Rozovii Chulok';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50pt;
+    line-height: 110%;
+    text-align: center;
+    color: #303030;
+}
+
+.header{
+    position: absolute;
+    top: 120px;
+    left: 295px;
+}
+
+.cups{
+    position: absolute;
+    top: 340px;
+    left: 370px;
+    width:170px;
+    
+}
+
+.subscript{
+    position: absolute;
+    top: 280px;
+    left: 360px;
+    padding: 0;
+    font-family: 'Bookman Old Style';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 110%;
+    text-align: center;
+    color: #303030;
+
+}
+
+.wraith{
+    position: absolute;
+    mix-blend-mode: darken;
+    object-fit: contain;
+    width: 600px; 
+    height: auto;
+    left: 150px;
+    right: 150px;
+}
+
+.sign{
+    position: absolute;
+    top: 650px;
+    left: 295px;
+}
+
+.bg{
+    position: relative;
+    max-width: 1920px; 
+}
+
+[class*="stain"]{
+    mix-blend-mode:multiply;
+    opacity: 0.6;
+    width: 550px;
+    height: auto;
+}
+
+.green-stain-1{
+    position: absolute;
+    top: 10%;
+    left: 10%;    
+}
+
+.green-stain-2{
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    transform: rotate(32deg);
+}
+
+.green-stain-3{
+    position: absolute;
+    top: -35%;
+    right: 9%;
+}
+
+.red-stain-1{
+    position: absolute;
+    top: -40%;
+    left: -20%;
+}
+
+.red-stain-2{
+    position: absolute;
+    top: 20%;
+    right: -40%;
+}
+
+.red-stain-3{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
