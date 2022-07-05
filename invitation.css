@@ -116,7 +116,7 @@ span.header, span.sign{
 
 @font-face {
 	font-family: 'Rozovii-Chulok';
-	src: url('fonts/Rozovii Chulok.eot');
+	src: url('fonts/Rozovii-Chulok.eot');
 	src: local('☺'), url('fonts/Rozovii-Chulok.woff') format('woff'), url('fonts/Rozovii-Chulok.ttf') format('truetype'), url('fonts/Rozovii-Chulok.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
