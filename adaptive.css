@@ -1,0 +1,120 @@
+@media only screen and (max-device-width : 480px) {
+
+.card{
+    width: 100%;
+}
+
+.wraith{
+    width: 100%;
+    left: 0;
+}
+
+.cups{
+    width: 30%;
+    top: 60%;
+    left:35%;
+}
+span.header, span.sign{
+    font-size: 84pt;
+}
+
+.header{
+    top: 20%;
+    left: 24%;
+}
+
+.sign{
+    top: 120%;
+    left: 24%;
+}
+.subscript{
+    font-size: 32pt;
+    top: 50%;
+    left: 34%;
+}
+
+[class*=block]{
+    position: relative;
+    width: 100%;
+    top: 190%;
+    bottom: 150%;
+}
+
+div.transition-block span{
+    font-size: 52pt;
+    left: 15%;
+    top: 180%;
+}
+
+.rings{
+    width: 20%;
+    top: 270%;
+    left:40%;
+}
+
+.branch{
+    width: 80%;
+    top: 245%;
+    left:10%;
+}
+
+[class*=block] .date, .h1{
+    font-size: 52pt;
+    left: 16%;
+    top: 220%;
+}
+
+[class*=block] p{
+    position: absolute;
+    font-size: 32pt;
+    top: 240%;
+    left: 17%;
+    width: 70%;
+}
+
+div.block-2 .date{
+    top: 280%;
+}
+
+.three-branches{
+    top:650%;
+    left: 38%;
+}
+
+div.block-last .h1{
+    top:610%;
+}
+
+div.block-2 p{
+    top:300%;
+}
+
+div.block-3 p{
+    top:780%;
+    left: -8%;
+    min-width: 750px;
+}
+
+div.block-ps .h1{ 
+    top: 470%;
+}
+
+div.block-ps p{ 
+    top: 490%;
+    padding-bottom: 80px;
+}
+
+.block-1 div.line{
+    position: absolute;
+    top: 285%;
+    width: 40%;
+    left: 32%;
+}
+
+.block-2 div.line{
+    position: absolute;
+    top: 365%;
+    width: 40%;
+    left: 32%;
+}
+}

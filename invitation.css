@@ -1,0 +1,216 @@
+@font-face {
+	font-family: 'Rozovii-Chulok';
+	src: url('fonts/Rozovii-Chulok.eot');
+	src: local('☺'), url('fonts/Rozovii-Chulok.woff') format('woff'), url('fonts/Rozovii-Chulok.ttf') format('truetype'), url('fonts/Rozovii-Chulok.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cormorant-Regular';
+	src: url('fonts/Cormorant-Regular.eot');
+	src: local('☺'), url('fonts/Cormorant-Regular.woff') format('woff'), url('fonts/Cormorant-Regular.ttf') format('truetype'), url('fonts/Cormorant-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* фон */
+
+body {
+    background: url("img/watercolor-bg.jpg") repeat repeat;
+    margin: 0;
+    background-blend-mode: darken ;
+}
+
+ /* главная */
+
+.card {
+    position: relative;
+    margin:0 auto;
+    margin-top: 100px;
+    width: 900px; 
+    height: 850px;
+}
+
+span.header, span.sign{
+    padding: 0;
+    font-family: 'Rozovii-Chulok';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50pt;
+    line-height: 110%;
+    text-align: center;
+    color: #303030;
+}
+
+.header{
+    position: absolute;
+    top: 120px;
+    left: 295px;
+}
+
+.cups{
+    position: absolute;
+    top: 340px;
+    left: 370px;
+    width:170px;    
+}
+
+.subscript{
+    position: absolute;
+    top: 280px;
+    left: 360px;
+    padding: 0;
+    font-family: 'Cormorant-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18pt;
+    line-height: 110%;
+    text-align: center;
+    color: #303030;
+}
+
+.wraith{
+    position: absolute;
+    mix-blend-mode: darken;
+    object-fit: contain;
+    width: 600px; 
+    height: auto;
+    left: 150px;
+    right: 150px;
+}
+
+.sign{
+    position: absolute;
+    top: 650px;
+    left: 295px;
+}
+
+/* блоки */
+
+div.transition-block{
+    height: 280px;
+}
+
+[class*=block] {
+    position: relative;    
+    margin: 0 auto;
+    width: 700px;
+    height: 350px;    
+    
+}
+
+/* перехожной блок */
+
+div.transition-block span{
+    text-align: center;
+    width: 700px;    
+    margin: 0 auto;
+}
+
+.rings{
+    position: absolute;
+    mix-blend-mode: darken;
+    top: 130px;  
+    left: 42%;
+    width: 110px;  
+}
+
+.branch{
+    position: absolute;
+    top: 80px;
+    left: 15%;    
+    width:500px;
+}
+
+/* остальные блоки */
+
+[class*=block] .date, .h1{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    font-family: 'Rozovii-Chulok';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32pt;
+    line-height: 140%;
+    width: 700px;
+    margin: 0 auto;
+    color: #303030;
+}
+
+[class*=block] p{
+    position: absolute;
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'Cormorant-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16pt;
+    line-height: 110%;
+    width: 700px;
+    margin: 0 auto;
+    color: #303030;
+}
+
+div.block-3{
+    text-align: center;
+    width: 700px;
+    height: 140px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+div.block-3 p{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 0; 
+    padding-left: 60px;   
+}
+
+span.h1 {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block-3{
+    height: 140px;
+}
+
+.block-last{
+    height: 240px;
+}
+
+.line{
+    margin-bottom: 50px;
+    padding-top: 280px;
+    width: 200px;  
+    margin: 0 auto;
+    border-bottom: #303030 1px solid;       
+}
+
+.block-2 .line{
+    padding-top: 300px;
+}
+
+.block-last .line{
+    padding-top: 120px;
+}
+
+
+div.block-ps p{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 90px;  
+    padding-left: 60px; 
+}
+
+.three-branches{
+    position: absolute;
+    top: 20%;
+    left: 30%;    
+    width:300px;
+}
