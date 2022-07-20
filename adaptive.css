@@ -1,6 +1,7 @@
 @media only screen and (max-device-width : 480px) {
 
 .card{
+   margin: 120px 0;
     width: 100%;
 }
 
@@ -38,24 +39,25 @@ span.header, span.sign{
     width: 100%;
     top: 190%;
     bottom: 150%;
+    left: -2%;
 }
 
 div.transition-block span{
     font-size: 52pt;
-    left: 15%;
+    left: 17%;
     top: 180%;
 }
 
 .rings{
     width: 20%;
     top: 270%;
-    left:40%;
+    left:43%;
 }
 
 .branch{
     width: 80%;
     top: 245%;
-    left:10%;
+    left:12%;
 }
 
 [class*=block] .date, .h1{
@@ -96,12 +98,14 @@ div.block-3 p{
 }
 
 div.block-ps .h1{ 
-    top: 470%;
+    top: 450%;
 }
 
 div.block-ps p{ 
-    top: 490%;
-    padding-bottom: 80px;
+    top: 460%;
+    padding-bottom: 100px;
+    min-width: 800px;
+    left: 5%;
 }
 
 .block-1 div.line{
