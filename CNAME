@@ -1,5 +1,1 @@
-$ dig www.timur-lena-wedding.ru +nostats +nocomments +nocmd
-    > ;www.timur-lena-wedding.ru.                     IN      A
-    > www.timur-lena-wedding.ru.              3592    IN      CNAME   elvelsket.github.io.
-    > elvelsket.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
-    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
+timur-lena-wedding.ru
